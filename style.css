@@ -1,0 +1,70 @@
+h2{
+    text-align: center;
+    color: #27ae60;
+    font-size: 35px;
+}
+input {
+    margin: 0;
+    /* border: none; */
+    border-radius: 10px;
+    width:25rem;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #192a56;
+}
+
+
+.addBtn {
+    padding: 10px;
+    width: 20%;
+    background: #27ae60;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+} 
+
+
+
+#myList
+{
+    width: 500px;
+    border: 2px solid #27ae60;
+    padding: 1rem;
+    border-radius: 10px;
+} 
+
+li{
+    border: 2px solid #27ae60;
+    padding: 1rem 0.5rem;
+    margin: .5rem;
+    font-size: 20px;
+    color: #192a56;
+    border-radius: 10px;
+    position: relative;
+}
+ul>span{
+    cursor: pointer;
+}
+
+span>svg{
+    position: absolute;
+    width: 20px;
+    color: red;
+    cursor: pointer;
+    right: 5px;
+    top: 19px;
+    
+   
+}
