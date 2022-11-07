@@ -58,13 +58,25 @@ ul>span{
     cursor: pointer;
 }
 
-span>svg{
+li>.suppr{
     position: absolute;
-    width: 20px;
+    width: 30px;
+    height: 30px;
     color: red;
     cursor: pointer;
     right: 5px;
-    top: 19px;
+    top: 11.5px;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #192a56;
+    border-radius: 50%;
     
    
+}
+
+li>.suppr:hover
+{
+    background-color: red;
+    color: white;
 }
